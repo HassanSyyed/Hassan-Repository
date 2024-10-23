@@ -1,6 +1,7 @@
 import Footer from "./componants/footer";
 import Grid from "./componants/grid";
 import Navbar from "./componants/navbar";
+import Forms from "./componants/form";
 
 export default function Home() {
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Footer/>
       <Grid/>
       <Navbar/>
+      <Forms/>
     </div>
   );
 }
